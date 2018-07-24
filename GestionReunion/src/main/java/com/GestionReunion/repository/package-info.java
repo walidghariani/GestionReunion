@@ -5,4 +5,4 @@
  * @author WalidGhariani
  *
  */
-package com.service.GestionReunion;
+package com.GestionReunion.repository;

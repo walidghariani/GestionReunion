@@ -5,4 +5,4 @@
  * @author WalidGhariani
  *
  */
-package com.daoimpl.GestionReunion;
+package com.GestionReunion.controller;

@@ -5,4 +5,4 @@
  * @author WalidGhariani
  *
  */
-package com.controller.GestionReunion;
+package com.GestionReunion.service;
