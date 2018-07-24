@@ -1,16 +1,16 @@
 package com.GestionReunion.model;
 
 public class Poste {
-	private long idPoste;
+	private int idPoste;
 	private String nom;
 
-	public Poste(long idPoste, String nom) {
+	public Poste(int idPoste, String nom) {
 		super();
 		this.idPoste = idPoste;
 		this.nom = nom;
 	}
 
-	public long getIdPoste() {
+	public int getIdPoste() {
 		return idPoste;
 	}
 
@@ -18,7 +18,7 @@ public class Poste {
 		return nom;
 	}
 
-	public void setIdPoste(long idPoste) {
+	public void setIdPoste(int idPoste) {
 		this.idPoste = idPoste;
 	}
 

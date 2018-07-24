@@ -1,13 +1,13 @@
 package com.GestionReunion.model;
 
 public class ParticipantExterne {
-	private long idParticipantExterne;
-	private long idReunion;
+	private int idParticipantExterne;
+	private int idReunion;
 	private String entreprise;
 	private String nom;
 	private String prenom;
 
-	public ParticipantExterne(long idParticipantExterne, long idReunion, String entreprise, String nom, String prenom) {
+	public ParticipantExterne(int idParticipantExterne, int idReunion, String entreprise, String nom, String prenom) {
 		super();
 		this.idParticipantExterne = idParticipantExterne;
 		this.idReunion = idReunion;
@@ -20,11 +20,11 @@ public class ParticipantExterne {
 		return entreprise;
 	}
 
-	public long getIdParticipantExterne() {
+	public int getIdParticipantExterne() {
 		return idParticipantExterne;
 	}
 
-	public long getIdReunion() {
+	public int getIdReunion() {
 		return idReunion;
 	}
 
@@ -40,11 +40,11 @@ public class ParticipantExterne {
 		this.entreprise = entreprise;
 	}
 
-	public void setIdParticipantExterne(long idParticipantExterne) {
+	public void setIdParticipantExterne(int idParticipantExterne) {
 		this.idParticipantExterne = idParticipantExterne;
 	}
 
-	public void setIdReunion(long idReunion) {
+	public void setIdReunion(int idReunion) {
 		this.idReunion = idReunion;
 	}
 

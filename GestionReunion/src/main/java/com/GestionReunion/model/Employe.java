@@ -1,15 +1,15 @@
 package com.GestionReunion.model;
 
 public class Employe {
-	private long idEmploye;
-	private long idPoste;
+	private int idEmploye;
+	private int idPoste;
 	private String nom;
 	private String prenom;
 	private String email;
 	private boolean active;
 	private String mdp;
 
-	public Employe(long idEmploye, long idPoste, String nom, String prenom, String email, boolean active, String mdp) {
+	public Employe(int idEmploye, int idPoste, String nom, String prenom, String email, boolean active, String mdp) {
 		super();
 		this.idEmploye = idEmploye;
 		this.idPoste = idPoste;
@@ -24,11 +24,11 @@ public class Employe {
 		return email;
 	}
 
-	public long getIdEmploye() {
+	public int getIdEmploye() {
 		return idEmploye;
 	}
 
-	public long getIdPoste() {
+	public int getIdPoste() {
 		return idPoste;
 	}
 
@@ -56,11 +56,11 @@ public class Employe {
 		this.email = email;
 	}
 
-	public void setIdEmploye(long idEmploye) {
+	public void setIdEmploye(int idEmploye) {
 		this.idEmploye = idEmploye;
 	}
 
-	public void setIdPoste(long idPoste) {
+	public void setIdPoste(int idPoste) {
 		this.idPoste = idPoste;
 	}
 

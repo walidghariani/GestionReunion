@@ -1,15 +1,15 @@
 package com.GestionReunion.model;
 
 public class ParticipationEntretien {
-	private long idParticipationE;
-	private long idEntretien;
-	private long idEmploye;
+	private int idParticipationE;
+	private int idEntretien;
+	private int idEmploye;
 	private boolean adminE;
 	private boolean supprimerParticipantE;
 	private boolean ajouterParticipantE;
 	private boolean modifierParticipantE;
 
-	public ParticipationEntretien(long idParticipationE, long idEntretien, long idEmploye, boolean adminE,
+	public ParticipationEntretien(int idParticipationE, int idEntretien, int idEmploye, boolean adminE,
 			boolean supprimerParticipantE, boolean ajouterParticipantE, boolean modifierParticipantE) {
 		super();
 		this.idParticipationE = idParticipationE;
@@ -21,15 +21,15 @@ public class ParticipationEntretien {
 		this.modifierParticipantE = modifierParticipantE;
 	}
 
-	public long getIdEmploye() {
+	public int getIdEmploye() {
 		return idEmploye;
 	}
 
-	public long getIdEntretien() {
+	public int getIdEntretien() {
 		return idEntretien;
 	}
 
-	public long getIdParticipationE() {
+	public int getIdParticipationE() {
 		return idParticipationE;
 	}
 
@@ -57,15 +57,15 @@ public class ParticipationEntretien {
 		this.ajouterParticipantE = ajouterParticipantE;
 	}
 
-	public void setIdEmploye(long idEmploye) {
+	public void setIdEmploye(int idEmploye) {
 		this.idEmploye = idEmploye;
 	}
 
-	public void setIdEntretien(long idEntretien) {
+	public void setIdEntretien(int idEntretien) {
 		this.idEntretien = idEntretien;
 	}
 
-	public void setIdParticipationE(long idParticipationE) {
+	public void setIdParticipationE(int idParticipationE) {
 		this.idParticipationE = idParticipationE;
 	}
 
